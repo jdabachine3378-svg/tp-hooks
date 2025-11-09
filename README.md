@@ -1,6 +1,6 @@
-name: "TP React Hooks Avancés – Niveau Débutant"
+## name: "TP React Hooks Avancés – Niveau Débutant"
 author: "Jamila Dabachine"
-description: >
+# description: >
   Ce projet React a pour objectif de pratiquer les Hooks avancés :
   useReducer, useRef, useEffect, et la création de Hooks personnalisés 
   comme useFetch et useLocalStorage.
@@ -10,7 +10,7 @@ description: >
 
 ---
 
-objectifs:
+# objectifs:
   - Gérer un état complexe avec useReducer
   - Manipuler le DOM ou conserver une donnée sans re-render avec useRef
   - Gérer des effets avec nettoyage via useEffect
@@ -20,7 +20,7 @@ objectifs:
 
 ---
 
-structure_du_projet:
+# structure_du_projet:
   dossier: src/
   fichiers:
     - App.js
@@ -35,7 +35,7 @@ structure_du_projet:
 
 ---
 
-etapes:
+# etapes:
   - Étape 1: Créer un compteur avec useReducer (Compteur.js)
   - Étape 2: Donner le focus à un champ texte avec useRef (FocusInput.js)
   - Étape 3: Compter le nombre de rendus d’un composant (CompteurRendu.js)
@@ -48,7 +48,7 @@ etapes:
 
 ---
 
-hooks_utilises:
+# #hooks_utilises:
   - useState: Pour gérer des états simples
   - useReducer: Pour gérer un état complexe avec actions
   - useRef: Pour manipuler directement le DOM ou conserver une valeur
@@ -57,9 +57,9 @@ hooks_utilises:
   - useLocalStorage: Hook personnalisé pour lire/écrire dans le localStorage
 
 ---
-<img width="1755" height="3395" alt="image" src="https://github.com/user-attachments/assets/ff15ecd1-e86f-45dc-b468-5ef11ef5f802" />
 
-exemple_execution:
+# exemple_execution:
+
   commandes:
     - npm install
     - npm start
@@ -73,6 +73,7 @@ exemple_execution:
     - Met à jour la date et l’heure en temps réel
 
 ---
+<img width="1755" height="3395" alt="image" src="https://github.com/user-attachments/assets/ff15ecd1-e86f-45dc-b468-5ef11ef5f802" />
 
 auteurs_et_credits:
   etudiante: "Jamila Dabachine"
